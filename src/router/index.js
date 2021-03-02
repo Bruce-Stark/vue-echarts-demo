@@ -5,6 +5,7 @@ import chart from '@/components/echartsDemo'
 import toolShow from '@/components/toolShow'
 import userRespon from '@/components/userResponse'
 import eduSyl from '@/components/edu_syl'
+import custom from "@/components/custom";
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +39,11 @@ export default new Router({
       path: '/edu_syl',
       name: 'edu_syl',
       component: eduSyl
+    },
+    {
+      path: '/custom',
+      name: 'custom',
+      component: custom
     }
   ]
 })

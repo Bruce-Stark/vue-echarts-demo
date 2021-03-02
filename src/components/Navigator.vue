@@ -30,20 +30,25 @@ export default {
           path: '/edu_syl',
           descript: '双一流大学、学科分布'
         },
+        // {
+        //   name: '图片',
+        //   path: '/upImage',
+        //   descript: '图片上传预览组件'
+        // },
+        // {
+        //   name: 'Echarts',
+        //   path: '/chart',
+        //   descript: '百度eCharts做的一些demo'
+        // },
+        // {
+        //   name: '工具',
+        //   path: '/toolShow',
+        //   descript: '一些自制控件演示'
+        // },
         {
-          name: '图片',
-          path: '/upImage',
-          descript: '图片上传预览组件'
-        },
-        {
-          name: 'Echarts',
-          path: '/chart',
-          descript: '百度eCharts做的一些demo'
-        },
-        {
-          name: '工具',
-          path: '/toolShow',
-          descript: '一些自制控件演示'
+          name: 'custom',
+          path: '/custom',
+          descript: 'custom'
         }
       ]
     }

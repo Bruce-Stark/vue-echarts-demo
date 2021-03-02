@@ -6,7 +6,7 @@ import router from './router'
 import echarts from 'echarts'
 import chinaMap from '../public/js/china.js'
 import axios from 'axios'
-console.log(chinaMap)
+// console.log(chinaMap)
 Vue.prototype.$echarts = echarts
 Vue.prototype.$ajax = axios
 Vue.config.productionTip = false
